@@ -5,16 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>C-Myhealthy</title>
+  <title>C-Myhealthy | Panggilan Antrean</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-  <!--icons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicon icon -->
+  <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,7 +38,7 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="clickmyhealthy@gmail.com">Click-Myhealthy.com</a>
+        <i class="bi bi-envelope"></i> <a href="clickmyhealthy@gmail.com">ClickMyhealthycare@gmail.com</a>
         <i class="bi bi-phone"></i> +62 81231946103
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
@@ -69,7 +68,7 @@
 
               <h3>POLI UMUM</h3>
               <a href="panggilan-antrian-umum" class="btn btn-success2 rounded-pill px-4 py-2">
-                Got it <i class="bi-chevron-right ms-2"></i>
+                Panggil <i class="bi-chevron-right ms-2"></i>
               </a>
             </div>
           </div>
@@ -84,7 +83,7 @@
               </div>
               <h3>POLI GIGI</h3>
               <a href="panggilan-antrian-gigi" class="btn btn-success2 rounded-pill px-4 py-2">
-                Got it <i class="bi-chevron-right ms-2"></i>
+                Panggil <i class="bi-chevron-right ms-2"></i>
               </a>
             </div>
           </div>
@@ -99,7 +98,7 @@
               </div>
               <h3>POLI KIA/KB</h3>
               <a href="panggilan-antrian-kia" class="btn btn-success2 rounded-pill px-4 py-2">
-                Got it <i class="bi-chevron-right ms-2"></i>
+                Panggil <i class="bi-chevron-right ms-2"></i>
               </a>
             </div>
           </div>
@@ -108,3 +107,29 @@
 
       </div>
     </section><!-- End Counts Section -->
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>C-Myhealthy</h3>
+            <p>
+              
+              <strong>Phone:</strong> +62 81231946103<br>
+              <strong>Email:</strong> ClickMyhealthycare@gmail.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer mt-auto py-4">
+    <div class="container">
+      <!-- copyright -->
+      <div class="copyright text-center mb-2 mb-md-0">
+        &copy; 2021 - <a href="" target="_blank" class="text-danger text-decoration-none">clickmyhealthy.com</a>. All rights reserved.
+      </div>
+    </div>
+    </div>
+  </footer>

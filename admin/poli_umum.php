@@ -8,8 +8,13 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="assets/css/style2.css">
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
 
-<title>C-Myhealthy</title>
+<title>C-Myhealthy | Poli Umum</title>
 
 <br><br><br><br>
     <div class="jumbotron">
@@ -23,21 +28,20 @@
       </div>
     </div>
 </head>
-<body id="page-top" class="">
+<body id="page-top" class="h-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
     <div class="container">
-    <a class="navbar h1"><b>POLI UMUM</a></b>
+    <a class="navbar-brand" href="#page-top"><b>HALAMAN POLI UMUM</a></b>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
     <span><div class="collapse navbar-collapse" id="navbarNav"></span>
       <ul class="navbar-nav ml-auto">
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="db_petugas.php">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../cp.php">HUBUNGI KAMI</a>
+          <a class="nav-link" href="../cp.php">TENTANG KAMI</a>
         </li>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <a class="btn btn-primary" href="logout.php">Log Out</a>
@@ -74,7 +78,8 @@ $nmr = 1;
             <td><?=$data['TANGGAL'];?></td>
             <td><?=$data['NAMA'];?></td>
             <td><?=$data['NAMA_POLI'];?></td>
-          <td><a href="hapus-umum.php?NIK=<?=$data['NIK'];?>" class="btn btn-danger" onclick="return confirm('yakin anda akan menghapus data ini?');">Hapus</a></td>      
+          <td><a href="hapus-umum.php?NIK=<?=$data['NIK'];?>" class="btn btn-danger" onclick="return confirm('yakin anda akan menghapus data ini?');">Hapus</a></td>   
+            <td><a href=""><button class="btn btn-primary"><i class="fa fa-print"></i>Cetak</button></a></td>
         </tr>
         <?php $nmr++;?>
         <?php endwhile; ?>
@@ -100,13 +105,30 @@ $nmr = 1;
 <br/>
 <br/>
 
-   <!-- Footer -->
-  <footer class="footer mt-auto py-4">
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>C-Myhealthy</h3>
+            <p>
+              
+              <strong>Phone:</strong> +62 81231946103<br>
+              <strong>Email:</strong> ClickMyhealthycare@gmail.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer mt-auto py-4">
     <div class="container">
       <!-- copyright -->
       <div class="copyright text-center mb-2 mb-md-0">
         &copy; 2021 - <a href="" target="_blank" class="text-danger text-decoration-none">clickmyhealthy.com</a>. All rights reserved.
       </div>
+    </div>
     </div>
   </footer>
 

@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="assets/css/style2.css">
     <link rel="stylesheet" type="text/css" href="STYLE1.css">
 </head>
-<body>
 <body id="page-top" class="d-flex flex-column h-100">
     <table class="user" align="center">
-        <h1 class="judul" align="center">- DATA PASIEN POLI UMUM -</h1>
+        <h1 class="judul" align="center">C-Myhealty</h1>
+        <h2 class="judul" align="center">- Data Pasien Poli Umum -</h2>
         <tr align="center">
             <th>NO.</th>
             <th>NIK</th>
@@ -41,10 +41,34 @@ $nmr = 1;
         <?php $nmr++;?>
         <?php endwhile; ?>
 
-</body>
 	<script>
 		window.print();
 	</script>
 
+</table><br><br><br><br><br>
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>C-Myhealthy</h3>
+            <p>
+              <strong>Phone:</strong> +62 81231946103<br>
+              <strong>Email:</strong> ClickMyhealthycare@gmail.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer mt-auto py-4">
+    <div class="container">
+      <!-- copyright -->
+      <div class="copyright text-center mb-2 mb-md-0">
+        &copy; 2021 - <a href="" target="_blank" class="text-danger text-decoration-none">clickmyhealthy.com</a>. All rights reserved.
+      </div>
+    </div>
+    </div>
+  </footer>
 </body>
 </html>
