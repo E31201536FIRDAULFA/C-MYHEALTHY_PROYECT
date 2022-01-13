@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en" class="h-100">
 
@@ -8,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Title -->
-  <title>C-Myhealthy</title>
+  <title>C-Myhealthy | Antrian Poli Umum</title>
 
   <!-- Favicon icon -->
-  <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -33,7 +32,7 @@
 <body class="d-flex flex-column h-100">
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
     <div class="container">
-    <a class="navbar h3"><b>POLI UMUM</a></b>
+    <a class="navbar-brand" href="#page-top"><b>POLI UMUM</a></b>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,10 +40,10 @@
       <ul class="navbar-nav ml-auto">
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../db_panggilan.php">BACK</a>
+          <a class="nav-link" href="../db_panggilan.php">KEMBALI</a>
         </li>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a class="" href="logout.php">LOG OUT</a>
+          <a class="" href="../db_petugas.php">LOG OUT</a>
       </div>
       </ul>
     </div>
